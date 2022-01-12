@@ -75,6 +75,7 @@ In the repository, go to "Settings", then "Secrets" and add "CLOUDFLARE_API_TOKE
 | Name          | Description                                                                                                             |
 | ------------- | ----------------------------------------------------------------------------------------------------------------------- |
 | `preview_url` | A string with the unique URL of the deployment. If it hasn't finished uploading (is incomplete), the value will be null |
+| `deployment_id` | A string with the unique Id for the deployment. |
 
 ## Contributing
 

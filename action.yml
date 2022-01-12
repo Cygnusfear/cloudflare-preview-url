@@ -24,6 +24,8 @@ name: Cloudflare Preview URL
 outputs:
   preview_url:
     description: "A string with the unique URL of the deployment. If it hasn't finished uploading (is incomplete), the value will be null."
+  deployment_id:
+    description: "A string with the unique Id for the deployment."
 runs:
   main: dist/index.js
   using: node12

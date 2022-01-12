@@ -56,6 +56,7 @@ async function run() {
     }
 
     core.setOutput('preview_url', url)
+    core.setOutput('deployment_id', id)
   } catch (error) {
     core.setFailed(error.message)
   }
